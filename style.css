@@ -104,6 +104,13 @@ img{
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: all .07s ease;
+
+}
+
+.letter:hover{
+
+  transform: scale(1.05);
 
 }
 
