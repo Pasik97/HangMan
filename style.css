@@ -161,3 +161,38 @@ img{
   background-color: inherit;
 
 }
+
+@media only screen and (min-device-width: 10px) and (max-device-width: 600px) {
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  #riddle{
+    padding-top: 30px;
+  }
+
+  .game{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    width: auto;
+    padding-top: 10px;
+  }
+
+  .progress{
+    padding-bottom: 10px;
+  }
+
+  .letters{
+    width: 100%;
+  }
+
+  .com{
+    margin: 20px;
+  }
+
+}
